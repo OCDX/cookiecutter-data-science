@@ -1,9 +1,11 @@
 {
     "project_name": "project_name",
-    "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
-    "author_name": "Your name (or your organization/company/team)",
-    "description": "A short description of the project.",
-    "open_source_license": ["MIT", "BSD", "Not open source"],
-    "s3_bucket": "[OPTIONAL] your-bucket-for-syncing-data (do not include 's3://')",
-    "python_interpreter": ["python", "python3"]
+    "id": "Unique identifier for manifest; is required; is not repeatable; URL or URI for dataset.",
+    "creator": "Name of person creating manifest; is required; is not repeatable enter as First Name, Last Name. If unavailable enter No Assertion.",
+    "dateCreated": "Date that manifest is created; is required; is not repeatable enter as yyyy-dd-mm.",
+    "comment": "Details or comments about creator of manifest or the manifest itself; is not required; is not repeatable.",
+    "creator_name": "Person or organization with a role in producing the dataset. Is required. Is repeatable. Enter as First name Last name. If unknown, unclear or not applicable write No Assertion.",
+    "creator_role": "The role played by a creator in creating the dataset. Is not required. Is not repeatable. If unknown, unclear or not applicable write No Assertion.",
+    "creator_type": "Educational institutions; Government; NGO; Individual; Private for profit entity; No Assertion",
+    "creator_contact": "How to contact the creator. Is required; is repeatable. If unknown, unclear or not applicable write No Assertion"
 }
