@@ -1,0 +1,79 @@
+{
+	"manifests": {
+		"manifest": {
+			"standardVersions": "ocdxManifest schema v.1.3",
+			"id": {{cookiecutter.id}}, 
+			"creator": {{cookiecutter.creator}, 
+			"dateCreated": {{cookiecutter.dateCreated}},
+			"comment": {{cookiecutter.comment}}, 
+			"researchObject": {
+				"title": "", 
+				"abstract": "", 
+				"dates": {
+					"date": {
+						"date": "", 
+						"label": "Start" 
+					},
+					"date": {
+						"date": "", 
+						"label": "End" 
+					},					
+					"date": {
+						"date": "", 
+						"label": "Created" 
+					}					
+				}
+			},
+			"privacyEthics": {
+				"oversight": { 
+					"label": "No assertion" 
+				}
+			},
+			"informedConsent": "No", 
+			"anonymizedData": { 
+				"label": "No assertion" 
+			},
+			"privacyConsiderations": "No assertion"
+		},		
+		"provenance": {
+			"narrative": "" 
+		},
+		"publications": { 
+			"publication": "No assertion"
+		},
+		"locations": {
+			"location": { 
+				"url": "",
+				"comment": "" 
+			}
+		},		
+		"files": { 
+			"file": {
+				"name": "",  
+				"format": "",    
+				"size": "", 
+				"url": "",  
+				"checksum": "" 
+			}
+		},		
+		"permissions": {{cookiecutter.permissions}} 
+	},
+	"dates": {
+		"date": { 
+			"date": "" 
+		},
+		"label": "" 
+	},
+	"creators": { 
+		"creator": {
+			"name": {{cookiecutter.creator_name}}, 
+			"role": { 
+				"label": {{cookiecutter.creator_role}} 
+				}
+			},
+			"type": {
+				"label": {{cookiecutter.creator_type}} 
+			},
+			"contact": {{cookiecutter.creator_contact}}
+			}
+}
