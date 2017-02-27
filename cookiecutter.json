@@ -1,5 +1,5 @@
 {
-    "project_name": "project_name",
+    "repo_name": "project repository name",
     "id": "Unique identifier for manifest; is required; is not repeatable; URL or URI for dataset.",
     "creator": "Name of person creating manifest; is required; is not repeatable enter as First Name, Last Name. If unavailable enter No Assertion.",
     "dateCreated": "Date that manifest is created; is required; is not repeatable enter as yyyy-dd-mm.",
