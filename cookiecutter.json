@@ -4,7 +4,7 @@
     "creator": "Name of person creating manifest; is required; is not repeatable enter as First Name, Last Name. If unavailable enter No Assertion.",
     "dateCreated": "Date that manifest is created; is required; is not repeatable enter as yyyy-dd-mm.",
     "comment": "Details or comments about creator of manifest or the manifest itself; is not required; is not repeatable.",
-    "permissions": "#Are there any notices or statements that limit access and use of datasets stored in the repository or host site? Are there any steps a researcher should take to gain access to the data source? Are there any types of projects or institutions that will not be permitted to use the data source? Is not required. Is not repeatable. If unknown, unclear or not applicable write No Assertion."
+    "permissions": "#Are there any notices or statements that limit access and use of datasets stored in the repository or host site? Are there any steps a researcher should take to gain access to the data source? Are there any types of projects or institutions that will not be permitted to use the data source? Is not required. Is not repeatable. If unknown, unclear or not applicable write No Assertion.",
     "creator_name": "Person or organization with a role in producing the dataset. Is required. Is repeatable. Enter as First name Last name. If unknown, unclear or not applicable write No Assertion.",
     "creator_role": "The role played by a creator in creating the dataset. Is not required. Is not repeatable. If unknown, unclear or not applicable write No Assertion.",
     "creator_type": "Educational institutions; Government; NGO; Individual; Private for profit entity; No Assertion",
